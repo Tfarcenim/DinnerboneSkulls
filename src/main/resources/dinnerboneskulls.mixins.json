@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tfar.dinnerboneskulls.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockEntityTypeAccessor",
+    "SkullBlockEntityMixin",
+    "StandingAndWallBlockItemMixin"
+  ],
+  "client": [
+    "SkullBlockRendererMixin",
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
